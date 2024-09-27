@@ -16,7 +16,7 @@ public class T02 {
         penulis = input.nextLine();
         int tahun;
 
-        tahun = Integer.parseInt(input.nextLine());
+        tahun = input.nextInt();
         String penerbit;
 
         penerbit = input.nextLine();
@@ -25,14 +25,14 @@ public class T02 {
         format = input.nextLine();
         double harga, margin;
 
-        harga = Double.parseDouble(input.nextLine());
-        margin = Double.parseDouble(input.nextLine());
+        harga = input.nextDouble();
+        margin = input.nextDouble();
         int stock;
 
-        stock = Integer.parseInt(input.nextLine());
+        stock = input.nextInt();
         double rating;
 
-        rating = Double.parseDouble(input.nextLine());
+        rating = input.nextDouble();
         if (rating >= 4.7) {
             keterangan = "Best Pick";
         } else {
